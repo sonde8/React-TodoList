@@ -1,14 +1,14 @@
 import React from 'react'
-import TodoInput from '../components/TodoInput'
 import TodoList from '../components/TodoList'
+import TodoInput from '../components/TodoInput'
 
 const TodoHome = () => {
   return (
-    <div>
-      <h1>해야할 일</h1>
-      <TodoInput></TodoInput>
-      <TodoList></TodoList>
-      <TodoList></TodoList>
+    <div className='todo-container'>
+      <h1 className='todo-tit'>Todo-List</h1>
+      <TodoInput/>
+      <TodoList/>
+      <TodoList/>      
     </div>
   )
 }

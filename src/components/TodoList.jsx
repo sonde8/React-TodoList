@@ -1,8 +1,14 @@
 import React from 'react'
+import TodoItem from './TodoItem'
 
 const TodoList = () => {
   return (
-    <div>TodoList</div>
+    <div className='todo-list'>
+      <p>해야할 일 : 0개</p>
+      <ul>
+        <TodoItem/>
+      </ul>
+    </div>
   )
 }
 
